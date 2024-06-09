@@ -1,0 +1,273 @@
+[{
+  "_id": {
+    "$oid": "66587d179c7db5f2ba36151c"
+  },
+  "user_rating": "5.0",
+  "review_text": "Lifechanging book.",
+  "review_date": "2024-05-29",
+  "users": [
+    {
+      "first_name": "Meno",
+      "last_name": "Priezvisko",
+      "birth_date": {
+        "$date": "1980-01-01T00:00:00.000Z"
+      },
+      "gender": "Male",
+      "age": 44,
+      "email": "email@example.com",
+      "address": {
+        "street": "123 Street",
+        "postal_code": "12345",
+        "city": "Town",
+        "country": "Country"
+      }
+    }
+  ],
+  "books": [
+    {
+      "name": "Book of Lifechanging Stories",
+      "ISBN": "123456789",
+      "format": "Hard",
+      "edition": "1",
+      "weight": 0.9,
+      "year_published": 2024,
+      "page_count": 350,
+      "publication_date": {
+        "$date": "2024-01-01T00:00:00.000Z"
+      },
+      "author": {
+        "first_name": "Book",
+        "last_name": "Author",
+        "nationality": "American",
+        "biography": "Book Author is an unmatched book author.",
+        "website": "bookauthor.com",
+        "birth_date": {
+          "$date": "1975-06-15T00:00:00.000Z"
+        }
+      },
+      "events": [
+        {
+          "event_name": "Book Launch",
+          "description": "Launch",
+          "event_date": {
+            "$date": "2024-01-10T00:00:00.000Z"
+          }
+        }
+      ],
+      "awards": [
+        {
+          "award_name": "Best Fiction",
+          "award_year": 2024,
+          "award_date": {
+            "$date": "2024-05-01T00:00:00.000Z"
+          },
+          "organization_name": "Book Awards Organization"
+        }
+      ],
+      "genres": [
+        {
+          "genre_name": "Fiction",
+          "description": "A genre of fiction."
+        }
+      ],
+      "languages": [
+        {
+          "language_name": "English"
+        }
+      ],
+      "publisher": {
+        "publisher_name": "Book Publisher",
+        "founder": "Publisher Founder",
+        "website": "bookpublisher.com",
+        "address": {
+          "street": "123 Publisher Strt",
+          "postal_code": "45678",
+          "city": "PublisherTown",
+          "country": "USA"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6658807c9c7db5f2ba36151d"
+  },
+  "user_rating": "3.5",
+  "review_text": "An above average book, worth a read.",
+  "review_date": "2024-05-29",
+  "users": [
+    {
+      "first_name": "Regular",
+      "last_name": "User",
+      "birth_date": {
+        "$date": "1985-11-15T00:00:00.000Z"
+      },
+      "gender": "Male",
+      "age": 38,
+      "email": "regular.user@example.com",
+      "address": {
+        "street": "456 Book stret",
+        "postal_code": "11122",
+        "city": "Villagecity",
+        "country": "BookCountry"
+      }
+    }
+  ],
+  "books": [
+    {
+      "name": "The most above average book you have ever read",
+      "ISBN": "192837465",
+      "format": "Ebook",
+      "edition": "1",
+      "weight": 0,
+      "year_published": 2022,
+      "page_count": 400,
+      "publication_date": {
+        "$date": "2022-05-20T00:00:00.000Z"
+      },
+      "author": {
+        "first_name": "AboveAverageBook",
+        "last_name": "Author",
+        "nationality": "Canadian",
+        "biography": "AboveAverageBook Author is known for his above average books.",
+        "website": "aboveaveragebookauthor.com",
+        "birth_date": {
+          "$date": "1978-09-25T00:00:00.000Z"
+        }
+      },
+      "events": [
+        {
+          "event_name": "Author Q&A",
+          "description": "An online session with the author.",
+          "event_date": {
+            "$date": "2022-06-15T00:00:00.000Z"
+          }
+        }
+      ],
+      "awards": [
+        {
+          "award_name": "Readers' Choice Award",
+          "award_year": 2022,
+          "award_date": {
+            "$date": "2022-11-05T00:00:00.000Z"
+          },
+          "organization_name": "International Book Awards"
+        }
+      ],
+      "genres": [
+        {
+          "genre_name": "Philosophy",
+          "description": "Books that explores being above average."
+        }
+      ],
+      "languages": [
+        {
+          "language_name": "English"
+        }
+      ],
+      "publisher": {
+        "publisher_name": "Philosophy Publishing",
+        "founder": "Philosophy Publisher",
+        "website": "philosophypublishing.com",
+        "address": {
+          "street": "321 Philosophy Street",
+          "postal_code": "98745",
+          "city": "Philosophytown",
+          "country": "Publisherland"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "665881859c7db5f2ba36151e"
+  },
+  "user_rating": "1.0",
+  "review_text": "A Terrible book.",
+  "review_date": "2024-05-29",
+  "users": [
+    {
+      "first_name": "Reading",
+      "last_name": "User",
+      "birth_date": {
+        "$date": "1990-02-20T00:00:00.000Z"
+      },
+      "gender": "Female",
+      "age": 34,
+      "email": "reading.user@example.com",
+      "address": {
+        "street": "Read Street 9",
+        "postal_code": "67890",
+        "city": "Readpolis",
+        "country": "Readland"
+      }
+    }
+  ],
+  "books": [
+    {
+      "name": "Insights into writing a terrible book",
+      "ISBN": "987654321",
+      "format": "Paperback",
+      "edition": "2",
+      "weight": 0.7,
+      "year_published": 2023,
+      "page_count": 280,
+      "publication_date": {
+        "$date": "2023-08-15T00:00:00.000Z"
+      },
+      "author": {
+        "first_name": "Terrible",
+        "last_name": "Writer",
+        "nationality": "British",
+        "biography": "Terrible Writer is a terrible author in writing books.",
+        "website": "terriblewriter.com",
+        "birth_date": {
+          "$date": "1985-07-10T00:00:00.000Z"
+        }
+      },
+      "events": [
+        {
+          "event_name": "Book Signing",
+          "description": "An event to meet the author and get books signed.",
+          "event_date": {
+            "$date": "2023-09-10T00:00:00.000Z"
+          }
+        }
+      ],
+      "awards": [
+        {
+          "award_name": "Literary Awfulness Award",
+          "award_year": 2023,
+          "award_date": {
+            "$date": "2023-12-01T00:00:00.000Z"
+          },
+          "organization_name": "Globally Awful Awards"
+        }
+      ],
+      "genres": [
+        {
+          "genre_name": "Non-Fiction",
+          "description": "Books based on real events and factual information."
+        }
+      ],
+      "languages": [
+        {
+          "language_name": "English"
+        }
+      ],
+      "publisher": {
+        "publisher_name": "Terrible Books Publishing",
+        "founder": "Terrible Publisher",
+        "website": "terriblebookspublishing.com",
+        "address": {
+          "street": "Book street 6",
+          "postal_code": "12345",
+          "city": "Book City",
+          "country": "Publisherland"
+        }
+      }
+    }
+  ]
+}]
